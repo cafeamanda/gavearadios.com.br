@@ -1,0 +1,129 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px;
+}
+
+.navbar-brand {
+  padding: 8px 15px;
+}
+
+.header-title {
+  font-family: 'Exo', sans-serif;
+}
+
+.row-content {
+  margin: 0px auto;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.row-footer {
+  margin: 0px auto;
+  padding: 20px 0px;
+  background-color: #ed3237;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color:black;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#jumboSubtitle {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#contato, #email {
+  border: 1px solid;
+  border-color: #eee;
+  border-radius: 16px;
+  font-size: 22px;
+}
+
+#contato h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#contato, #contato a {
+  background-color: #fff;
+  color: #000;
+}
+
+#contato div {
+  padding: 0 0;
+}
+
+.figure-caption {
+  font-family: 'Exo', sans-serif;
+}
+
+.jumbotron {
+  margin: 0px auto;
+  padding-top: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom:20px;
+  background: #ffffff;
+  color: black;
+}
+
+@media (min-width: 960px) {
+    h4 {
+      font-size: 18px;
+    }
+    #jumboSubtitle {
+        font-size: 24px;
+    }
+    #contato {
+      padding-top: 31.5px;
+      padding-bottom: 31.5px;
+    }
+}
+
+@media (max-width: 959px) and (min-width: 600px) {
+    h4 {
+      font-size: 18px;
+    }
+    #jumboSubtitle, #contato h4, #contato {
+        font-size: 22px;
+    }
+    #email {
+      font-size:18px;
+    }
+    #contato h4, #contato address {
+      text-align: center;
+    }
+}
+
+@media (max-width: 599px) and (min-width: 321px) {
+    h4 {
+      font-size: 16px;
+    }
+    #jumboSubtitle, #contato h4, #contato, #email {
+        font-size: 16px;
+    }
+    #contato h4, #contato address {
+      text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    h4 {
+      font-size: 14px;
+    }
+    #jumboSubtitle, #contato h4, #contato, #email {
+        font-size: 14px;
+    }
+    #contato h4, #contato address {
+      text-align: center;
+    }
+}
